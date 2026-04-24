@@ -17,7 +17,7 @@ st.write("**Bold Text** and *Italic Text*")
 # number input
 age = st.number_input("Enter your age:",
                       min_value=0,
-                      max_value=120,
+                      max_value=1200,
                       value=25)
 st.write(f"Your age is {age}")
 
